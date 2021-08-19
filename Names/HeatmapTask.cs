@@ -12,6 +12,7 @@ namespace Names
             for (int y = 0; y < yLabels.Length; y++)
             {
                 yLabels[y] = (y + 1).ToString();
+
                 for (int x = 0; x < xLabels.Length; x++)
                 {
                     xLabels[x] = (x + 2).ToString();
